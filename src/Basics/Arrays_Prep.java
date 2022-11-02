@@ -4,6 +4,13 @@ public class Arrays_Prep {
 
 	public static void main(String[] args) {
 
+		System.out.println("========================");
+		System.out.println("Title: Arrays & Multiple Arrays");
+		System.out.println("Genre: Java Basics");
+		System.out.println("Author: Peter Broadbent");
+		System.out.println("Language: Java \n" + "Version: " + System.getProperty("java.version"));
+		System.out.println("========================\n");
+		System.out.println("");
 		int[] numberArray = { 1, 2, 3, 4, 5 };
 		System.out.println("A Single Array.");
 		System.out.println("---------------");
@@ -16,10 +23,7 @@ public class Arrays_Prep {
 
 		int[][] nums = null;
 
-		int[][] arrayNums = { 
-				{ 1, 2, 3, 4, 5, 6, 7, 8 }, 
-				{ 2, 4, 6, 8 }, 
-				{ 1, 3, 5, 7, 9, 11 } };
+		int[][] arrayNums = { { 1, 2, 3, 4, 5, 6, 7, 8 }, { 2, 4, 6, 8 }, { 1, 3, 5, 7, 9, 11 } };
 
 		int[][] primeNums = new int[2][5];
 

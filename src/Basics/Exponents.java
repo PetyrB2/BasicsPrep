@@ -6,7 +6,7 @@ public class Exponents {
 	
 	public static void main(String[] args) {
 		System.out.println("========================");
-		System.out.println("Title: Exponent Examples");
+		System.out.println("Title: Exponents");
 		System.out.println("Genre: Java Basics");
 		System.out.println("Author: Peter Broadbent");
 		System.out.println("Language: Java \n" + "Version: " + System.getProperty("java.version"));

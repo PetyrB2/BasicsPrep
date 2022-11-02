@@ -10,6 +10,15 @@ public class Streams {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("========================");
+		System.out.println("Title: Stream Examples");
+		System.out.println("Genre: Java Basics");
+		System.out.println("Author: Peter Broadbent");
+		System.out.println("Language: Java \n" + "Version: " + System.getProperty("java.version"));
+		System.out.println("========================\n");
+		System.out.println("");
+		
 		List<String> names2 = Arrays.asList("Bob", "Peter");
 
 		List<String> names = new ArrayList<>();
