@@ -23,11 +23,13 @@ Some of the Console print out
 
 
 =====================================
+
 Title: String To Int - Int to String
 Genre: Java Basics
 Author: Peter Broadbent
 Language: Java 
 Version: 11.0.16.1
+
 =====================================
 
 -----------------
