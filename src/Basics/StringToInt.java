@@ -48,13 +48,19 @@ public class StringToInt {
 		String str = "Age: 35";
 		System.out.println("Initial String: \n\t" + str);
 		
-		str = str.replaceAll("\\D+", "");
-		System.out.println("");
-		System.out.println("Just digits from String str: \n\t" + str);
+		String str2 = str.replaceAll("[0-9]", "");
+		String str1 = str.replaceAll("\\D+", "");
 		
-		int z = Integer.parseInt(str);
+		System.out.println("");
+		System.out.println("Just digits from String str: \n\t" + str1);
+		
+		int z = Integer.parseInt(str1);
 		System.out.println("");
 		System.out.println("New Integer z + 2: \n\t" + (z+2));
+		System.out.println("");
+		int newInt = (z+2);
+		String newStr = (Integer.toString(newInt));
+		System.out.println("New String: \n\t" + str2 + newStr );
 		System.out.println("");
 		System.out.println("-----------------EOF----------------------");
 	}
