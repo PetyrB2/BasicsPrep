@@ -11,6 +11,20 @@ public class Exponents {
 		System.out.println("Author: Peter Broadbent");
 		System.out.println("Language: Java \n" + "Version: " + System.getProperty("java.version"));
 		System.out.println("========================\n");
+		
+		// A Better Option for ints at least
+				Scanner sc = new Scanner(System.in);
+		System.out.println("Select a number then another as the exponent");
+		System.out.println("\nThis program will multiply the first number " + "\nby itself the second number of times.");
+		System.out.println("");
+		System.out.println("Pick a number: ");
+		int x = sc.nextInt();
+		System.out.println("Pick the Exponent: ");
+		int y = sc.nextInt();
+		System.out.println(x + " multiplied by itself " + y + " times " + "is \n\t" + (Math.pow(x, y)));
+		System.out.println("\n-------------------------------------------");
+		System.out.println("");
+		
 		System.out.println("5 to the power of 2: ");
 		System.out.println("\t= " + Math.pow(5, 2)); // (5 * 5) - Should be 25.0
 		System.out.println("");
