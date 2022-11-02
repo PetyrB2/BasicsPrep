@@ -41,6 +41,21 @@ public class StringToInt {
 		System.out.println("\n\t(Integer.toString(n) + 99)");
 		System.out.println("\nResult: " + Integer.toString(n) + 99);
 		System.out.println("");
+		System.out.println("");
+		System.out.println("-------");
+		System.out.println("Example");
+		System.out.println("-------");
+		String str = "Age: 35";
+		System.out.println("Initial String: \n\t" + str);
+		
+		str = str.replaceAll("\\D+", "");
+		System.out.println("");
+		System.out.println("Just digits from String str: \n\t" + str);
+		
+		int z = Integer.parseInt(str);
+		System.out.println("");
+		System.out.println("New Integer z + 2: \n\t" + (z+2));
+		System.out.println("");
 		System.out.println("-----------------EOF----------------------");
 	}
 
